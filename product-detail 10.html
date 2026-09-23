@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - Christian Wijaya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product-detail.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="hamburger-menu" id="closeMenu"></div>
+                <h2 class="sidebar-title" id="sidebarMenuTitle">✕ Menu</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="model-registration.html">Model Registration</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <div class="hamburger-menu" id="openMenu">☰</div>
+                <h1>Christian Wijaya</h1>
+            </header>
+
+            <div class="content">
+                <div class="back-link">
+                    <a href="products.html">&larr; Back</a>
+                </div>
+
+                <section class="product-detail">
+                    <div class="product-detail-container">
+                        <div class="product-image">
+                            <img src="assets/Sunglasses Pouch in Black Leather.png" alt="Sunglasses Pouch in Black Leather">
+                        </div>
+                        <div class="product-info">
+                            <h2>Sunglasses Pouch in Black Leather</h2>
+                            <p class="price">Rp. 16.981.000,00</p>
+                            <p class="description">The Lenora Sunglasses Pouch is crafted in soft calf leather, features our signatures - turnlock closure and a rear clasp.</p>
+                            
+                            <div class="quantity">
+                                <label for="quantity">Quantity:</label>
+                                <div class="quantity-selector">
+                               <button type="button" class="qty-btn minus">-</button>
+                                <input type="number" class="qty-input" value="1" min="1" readonly>
+                                <button type="button" class="qty-btn plus">+</button>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                                <button class="btn add-to-cart">Add to Cart</button>
+                                <button class="btn buy-now">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>                     
+
+            <footer>
+                <p>Christian Wijaya &copy; 2025</p>
+            </footer>
+        </main>
+    </div>
+
+    <div id="orderCompleteModal" class="order-complete-modal" style="display:none;">
+        <div class="order-complete-content">
+            <h2>Order Complete!</h2>
+            <p>Thank you for your purchase</p>
+            <div class="order-complete-actions">
+                <button id="goHomeBtn" class="btn">Go Home</button>
+                <button id="continueBrowsingBtn" class="btn">Continue Browsing</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/product-detail.js"></script>
+</body>
+</html>
