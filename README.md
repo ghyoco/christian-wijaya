@@ -1,8 +1,4 @@
 # Christian Wijaya — Luxury Fashion Website
-> **Human-Computer Interaction (HCI) Laboratory Project**  
-> **Author:** Giovanni August | **Student ID (NIM):** 2802398031  
-> **Institution:** Bina Nusantara University (BINUS) — Semester 2
-
 ---
 
 ## 📌 About This README
